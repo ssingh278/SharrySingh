@@ -1,0 +1,45 @@
+
+@keyframes color{
+    0%   { background: #33CCCC; }
+  20%  { background: #33CC36; }
+  40%  { background: #B8CC33; }
+  60%  { background: #FCCA00; }
+  80%  { background: #33CC36; }
+  100% { background: #33CCCC; }
+}
+body
+{
+   background-image: url(https://gifimage.net/wp-content/uploads/2017/07/animated-gif-background-1.gif);    
+   
+}
+
+.heading h1
+{
+    color: orange;
+    font-size: 60px;
+    text-align: center;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li
+{
+    
+    border: 3px solid;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    width: 200px;
+    font-weight: bolder;
+    
+}
+.navbar ul li:hover
+{
+    animation: color 5s infinite linear;
+}
