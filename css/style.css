@@ -1,12 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
 
-@keyframes color{
-    0%   { background: #33CCCC; }
-  20%  { background: #33CC36; }
-  40%  { background: #B8CC33; }
-  60%  { background: #FCCA00; }
-  80%  { background: #33CC36; }
-  100% { background: #33CCCC; }
+@keyframes color {
+    0% {
+        background: #33CCCC;
+    }
+
+    20% {
+        background: #33CC36;
+    }
+
+    40% {
+        background: #B8CC33;
+    }
+
+    60% {
+        background: #FCCA00;
+    }
+
+    80% {
+        background: #33CC36;
+    }
+
+    100% {
+        background: #33CCCC;
+    }
 }
+
+@keyframes background {
+    0% {
+        background: #33CCCC;
+    }
+
+   
+
+    40% {
+        background: #B8CC33;
+    }
+
+   
+
+    100% {
+        background: #33CCCC;
+    }
+}
+
 
 
 header,
@@ -14,82 +51,76 @@ section,
 aside,
 nav,
 footer {
-    
+   
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
 
-
-
-
-
-}
-body
-{
-   background-image: url(https://www.pixelstalk.net/wp-content/uploads/2016/08/Desktop-Best-Background-Images.jpg);    
- background-repeat: no-repeat;
- background-size: cover;  
 }
 
-.grid-container
-{
+  
+
+
+
+
+.grid-container {
     display: grid;
-margin: auto;
-grid-template-columns: repeat(11,auto);
-grid-template-rows: repeat(7,auto);
-
-}
-
-.studentlife
-{
-    display: block;
-    background-color:wheat;
-    grid-column: 1/5;
-    grid-row: 3/5;
+    margin: auto;
+    animation: background 9s infinite linear; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    grid-template-columns: repeat(10, auto);
+    grid-template-rows: repeat(7, auto);
 
    
-}
 
-.studentlife img
-{
-    height: 400px;
-    width: 470px;
-    border:5px black solid;
-    
-}
 
-.heading
-{
-  grid-column: 1/end;
+
+}
+.heading {
+    grid-column: 1/end;
     grid-row: 1/1;
     text-align: center;
-   
-}
-.heading h1
-{
-    color: orange;
-    font-size: 40px;
-    text-align: center;
-    margin: auto;
-   
-    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-color: #33CC36;
+
 }
 
-
-.navbar
-{
+.heading h1 {
+    position: relative;
+    color: #33CC36;
+    font-size: 50px;
+    text-transform: uppercase;
     
-    margin: auto;
-    grid-column: 1/end;
+    -webkit-text-stroke:0.3vw #B8CC33;
+
+
+
+}
+.heading h1::before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-text-stroke:0vw greenyellow;
+    border-right: 2px solid greenyellow;
+}
+.navbar {
+
+    margin-top: 0%;
+    grid-column: 1/11;
     grid-row: 2/2;
     text-align: center;
 
 }
 
-.navbar ul li
-{
-    
+.navbar ul li {
+
     border: 3px solid;
     display: inline-block;
     padding: 10px;
@@ -98,15 +129,86 @@ grid-template-rows: repeat(7,auto);
     width: 200px;
     font-weight: bolder;
     border-radius: 20px;
-    
-}
-.navbar ul li:hover
-{
-    animation: color 5s infinite linear;
+
 }
 
-.foot
+.navbar ul li:hover {
+    animation: color 5s infinite linear;
+    
+}
+
+.navbar a:link   
 {
+    text-decoration: none; 
+}
+
+
+.studentlife {
+    display: block;
+    background-color: rgb(12, 148, 238);
+    border: 4px solid rgb(12, 148, 238);
+    border-radius: 80px;
+    opacity: 0.7;
+    grid-column: 1/5;
+    grid-row: 3/5;
+    text-align: center;
+
+
+}
+
+.studentlife img {
+    height: 350px;
+    width: 400px;
+    border: 5px black solid;
+
+}
+
+.workhistory {
+    display: block;
+    background-color: rgb(12, 148, 238);
+    border-radius: 80px;
+    opacity: 0.7;
+    border: 4px solid rgb(12, 148, 238) ;
+    grid-column: 6 /end;
+    grid-row: 3/5;
+    text-align: center;
+    
+
+
+}
+
+.workhistory img {
+    height: 350px;
+    width: 400px;
+    border: 5px black solid;
+
+}
+
+
+
+
+.currentstatus
+{
+    background-color: darkseagreen;
+    grid-row: 5/6;
+    grid-column: 1/end;
+    
+    border-radius: 5px;
+    
+}
+
+.currentstatus>marquee>p
+{
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.foot {
+    color: whitesmoke;
+    background-color: #252525;
     grid-column: 1/end;
     grid-row: 7/end;
+    text-align: center;
+    border-radius: 5px;
 }
