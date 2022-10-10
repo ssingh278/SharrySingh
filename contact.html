@@ -5,8 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-<body>
+<body class="Contact-container">
+   
+    <header class="heading-Contact"><h1>Sharry Singh</h1></header>
+
+    <section class="returnbutton"><button onclick="location.href='index.html';" style="width: 100% ;background-color:burlywood ">Return to Home</button></section>
     
+        <section class="Contact-heading2"><h2>Want to reach me out?</h2></section>
+
+    <form action="" method="post" target="_blank" class="Contact-Form">
+
+        
+        <div class="firstname">
+            <label for="FirsName">First Name :</label><br>
+            <input type="text" id="FirstName" required>
+        </div>
+
+
+
+
+<div class="lastname">
+    <label for="LastName">Last Name :</label><br>
+    <input type="text" id="FirstName" required>
+</div>
+
+
+
+<div class="e-mail">
+    <label for="e-mail">E-mail :</label><br>
+    <input type="email" id="e-mail" placeholder="USername@abc.com" required>
+</div>
+
+<div class="mobileno">
+    <label for="Telenumber">Phone No. :</label><br>
+    <input type="tel" id="Telenumber" maxlength="14" placeholder="(Countrycode) (1234567890)" size="24">
+</div>
+
+<div class="button">
+    <input type="submit" value="Submit" class="submitbutton"><br>
+    <input type="reset" value="Reset" class="resetbutton">
+</div>
+
+
+</div>
+    </form>
+
+    <section class="Contact-images">
+       <marquee >
+        <img src="./images/contact1.jfif" alt="">
+        <img src="./images/contact2.jpg" alt="">
+        <img src="./images/contact3.jpg" alt="">
+        <img src="./images/contact4.jpg" alt="">
+
+       </marquee>
+    </section>
+    
+
+    <footer class="foot-form">
+        <p>&copy; Sharry Singh</p>
+        <script>
+            document.write("Last Modified On: " + document.lastModified);
+        </script>
+    </footer>
 </body>
 </html>

@@ -239,6 +239,112 @@ a:visited {
     opacity: 0.7;
 }
 
+
+/*------------------------CSS for Desktop VIew Contact page-----------------------------------*/
+.Contact-container
+{
+    animation: color 5s infinite linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: grid;
+    
+    grid-template-rows: repeat(6,auto);
+    grid-template-columns: repeat(1,auto);
+}
+
+
+.submitbutton,.resetbutton
+{
+    width: 100%;
+}
+
+
+.heading-Contact {
+    grid-column: 1/12;
+    grid-row: 1/1;
+    grid-column: 1/2;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+    border-radius: 5px;
+    animation: heading 9s infinite linear;
+    grid-row: 1/2;
+
+
+}
+
+.heading-Contact h1 {
+
+    color: #cc7d33;
+    font-size: 50px;
+    text-transform: uppercase;
+
+    -webkit-text-stroke: 0.3vw #f4ac11;
+    animation: text 5s 1;
+    margin: 0%; 
+
+
+
+}
+.returnbutton
+{
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+.Contact-heading2 h2
+{
+    text-align: center;
+    color: #0c0d04;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(226, 43, 128);
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-transform: uppercase;
+}
+
+form
+{
+   
+    grid-row: 4/5;
+    grid-column: 1/2;
+    
+    border: #072121 solid 3px;
+    text-align: center;
+    font-weight: bolder;
+    
+    display: grid;
+    grid-row-gap: 10px;
+    background-color: blueviolet;
+}
+.Contact-images
+{
+    grid-row: 5/6;
+    grid-column: 1/2;
+    border: #072121 3px solid;
+}
+.Contact-images img
+{
+    height: 350px;
+    width: 350px;
+}
+ .foot-form
+ {
+    color: whitesmoke;
+    background-color: #252525;
+    grid-column: 1/12;
+    grid-row: 7/end;
+    text-align: center;
+    border-radius: 5px;
+    grid-row: 6/7;
+    grid-column: 1/2;
+    
+ }
+
+
 /******************************** For mobile view of Index.html**************************************/
 
 @media screen and (max-width:800px) {
@@ -302,4 +408,122 @@ a:visited {
         grid-row: 6/7;
         grid-column: 1;
     }
+
+/*------------------------CSS for Mobile VIew Contact page-----------------------------------*/
+.Contact-container
+{
+    animation: color 5s infinite linear;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    display: grid;
+    
+    grid-template-rows: repeat(6,auto);
+    grid-template-columns: repeat(1,auto);
 }
+
+
+.submitbutton,.resetbutton
+{
+    width: 100%;
+}
+
+
+.heading-Contact {
+    grid-column: 1/12;
+    grid-row: 1/1;
+    grid-column: 1/2;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+    border-radius: 5px;
+    animation: heading 9s infinite linear;
+    grid-row: 1/2;
+
+
+}
+
+
+.heading-Contact h1 {
+
+    color: #cc7d33;
+    font-size: 50px;
+    text-transform: uppercase;
+
+    -webkit-text-stroke: 0.3vw #f4ac11;
+    animation: text 5s 1;
+    margin: 0%; 
+
+
+
+}
+.returnbutton
+{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    
+}
+.Contact-heading2 h2
+{
+    text-align: center;
+    color: #0c0d04;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(226, 43, 128);
+    
+    grid-row: 3/4;
+    grid-column: 1/2;
+    text-transform: uppercase;
+}
+
+form
+{
+   
+    grid-row: 4/5;
+    grid-column: 1/2;
+    
+    border: #072121 solid 3px;
+    
+    font-weight: bolder;
+   
+    display: grid;
+    grid-row-gap: 10px;
+    background-color: blueviolet;
+}
+.Contact-images
+{
+    grid-row: 5/6;
+    grid-column: 1/2;
+    border: #072121 3px solid;
+}
+.Contact-images img
+{
+    height: 350px;
+    width: 350px;
+}
+ .foot-form
+ {
+    color: whitesmoke;
+    background-color: #252525;
+    grid-column: 1/12;
+    grid-row: 7/end;
+    text-align: center;
+    border-radius: 5px;
+    grid-row: 6/7;
+    grid-column: 1/2;
+    
+ }
+
+
+
+
+
+
+
+}
+
+
+ 
+
