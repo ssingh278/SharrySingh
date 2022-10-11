@@ -427,6 +427,21 @@ Aboutme-returnbutton {
     color: #cc7d33;
 }
 
+.Photogallery
+{
+    font-size: larger;
+    border: #072121 solid 2px;
+}
+.Photogallery h2
+{
+    text-align: center;
+    color: #cc7d33;
+}
+.Photogallery img
+{
+    height: 350px;
+    width: 350px;
+}
 .aboutme-foot {
     color: whitesmoke;
     background-color: #252525;
@@ -696,9 +711,9 @@ Aboutme-returnbutton {
 
     }
 
-    /**********************Mobile View for Career page***************/
+    
 
-    /*inherit from desktop view*/
+ 
 
 
 
