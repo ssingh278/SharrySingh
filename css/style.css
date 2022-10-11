@@ -106,7 +106,7 @@ footer {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-   
+
     border-radius: 5px;
     animation: heading 9s infinite linear;
 
@@ -133,7 +133,7 @@ footer {
     grid-column: 1/12;
     grid-row: 2/2;
     text-align: center;
-   
+
 
 
 }
@@ -241,21 +241,20 @@ a:visited {
 
 
 /*------------------------CSS for Desktop VIew Contact page-----------------------------------*/
-.Contact-container
-{
+.Contact-container {
     animation: color 5s infinite linear;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     display: grid;
-    
-    grid-template-rows: repeat(6,auto);
-    grid-template-columns: repeat(1,auto);
+
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(1, auto);
 }
 
 
-.submitbutton,.resetbutton
-{
+.submitbutton,
+.resetbutton {
     width: 13.2%;
 }
 
@@ -267,7 +266,7 @@ a:visited {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-   
+
     border-radius: 5px;
     animation: heading 9s infinite linear;
     grid-row: 1/2;
@@ -283,18 +282,18 @@ a:visited {
 
     -webkit-text-stroke: 0.3vw #f4ac11;
     animation: text 5s 1;
-    margin: 0%; 
+    margin: 0%;
 
 
 
 }
-.Contact-returnbutton
-{
+
+.Contact-returnbutton {
     grid-row: 2/3;
     grid-column: 1/2;
 }
-.Contact-heading2 h2
-{
+
+.Contact-heading2 h2 {
     text-align: center;
     color: #0c0d04;
     font-family: 'Times New Roman', Times, serif;
@@ -307,55 +306,53 @@ a:visited {
 }
 
 
-form
-{
-   
+form {
+
     grid-row: 4/5;
     grid-column: 1/2;
-    
+
     border: #072121 solid 3px;
     text-align: center;
     font-weight: bolder;
-   
-    
+
+
     display: grid;
     grid-row-gap: 10px;
     background-color: blueviolet;
 }
-.Contact-images
-{
+
+.Contact-images {
     grid-row: 5/6;
     grid-column: 1/2;
     border: #072121 3px solid;
 }
-.Contact-images img
-{
+
+.Contact-images img {
     height: 350px;
     width: 350px;
 }
- .foot-form
- {
+
+.foot-form {
     color: whitesmoke;
     background-color: #252525;
-   
+
     text-align: center;
     border-radius: 5px;
     grid-row: 6/7;
     grid-column: 1/2;
-    
- }
+
+}
 
 /****************************************Desktop view of About me Page*******************************/
-.Aboutme-container
-{
+.Aboutme-container {
     animation: color 5s infinite linear;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     display: grid;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    grid-template-rows: repeat(6,auto);
-    grid-template-columns: repeat(1,auto);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    grid-template-rows: repeat(6, auto);
+    grid-template-columns: repeat(1, auto);
 }
 
 
@@ -366,7 +363,7 @@ form
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-   
+
     border-radius: 5px;
     animation: heading 9s infinite linear;
     grid-row: 1/2;
@@ -382,89 +379,85 @@ form
 
     -webkit-text-stroke: 0.3vw #f4ac11;
     animation: text 5s 1;
-    margin: 0%; 
+    margin: 0%;
 
 
 
 }
-Aboutme-returnbutton
-{
-   
-        grid-row: 2/3;
-        grid-column: 1/2;
-    
-}
-.Aboutme-Content
 
-{
+Aboutme-returnbutton {
+
+    grid-row: 2/3;
+    grid-column: 1/2;
+
+}
+
+.Aboutme-Content {
     grid-row: 3/4;
-        grid-column: 1/2;
+    grid-column: 1/2;
 }
-.inside-aboutme-content h2
-{
-    color:#cc7d33;
+
+.inside-aboutme-content h2 {
+    color: #cc7d33;
 }
-.inside-aboutme-content
-{
+
+.inside-aboutme-content {
     text-align: center;
     font-size: larger;
     border: #072121 solid 2px;
 }
 
-.inside-myprogram-content
-{
+.inside-myprogram-content {
     font-size: larger;
     border: #072121 solid 2px;
 }
 
-.inside-myprogram-content h3
-{
-    color:#cc7d33;
+.inside-myprogram-content h3 {
+    color: #cc7d33;
     text-align: center
 }
-.inside-extraskill-content
-{
+
+.inside-extraskill-content {
     font-size: larger;
     border: #072121 solid 2px;
 }
-.inside-extraskill-content h2
-{
+
+.inside-extraskill-content h2 {
     text-align: center;
-    color:#cc7d33;
+    color: #cc7d33;
 }
-.aboutme-foot
-{
-     color: whitesmoke;
+
+.aboutme-foot {
+    color: whitesmoke;
     background-color: #252525;
     grid-row: 4/5;
     grid-column: 1/2;
     text-align: center;
     border-radius: 5px;
-  
+
 }
 
 /*******************************************Desktop view of Career hightlights******************/
-.Career-container
-{
+.Career-container {
     animation: color 5s infinite linear;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
     display: grid;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
 
 
 .heading-Career {
-   
+
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-   
+
     border-radius: 5px;
     animation: heading 9s infinite linear;
-    
+
 
 
 }
@@ -477,94 +470,90 @@ Aboutme-returnbutton
 
     -webkit-text-stroke: 0.3vw #f4ac11;
     animation: text 5s 1;
-    margin: 0%; 
+    margin: 0%;
 
 
 
 }
-.upcoming-heading h1
-{
+
+.upcoming-heading h1 {
     text-align: center;
     font-weight: bolder;
     color: rgb(238, 16, 16);
     font-size: 35px;
     text-transform: uppercase;
-    text-shadow: 50px purple ;
+    text-shadow: 50px purple;
     text-decoration: underline;
-font-style: italic;
+    font-style: italic;
 
-    
+
 }
 
 
 @keyframes rotate {
-    
-    25%
-    {
+
+    25% {
         transform: rotate(90deg);
     }
-    50%
-    {
+
+    50% {
         transform: rotate(180deg);
     }
-    75%
-    {
+
+    75% {
         transform: rotate(270deg);
     }
-    100%
-    {
+
+    100% {
         transform: rotate(360deg);
     }
 }
-.imageofmicrosoft
-{
-    display:flex;
-    justify-content:center ;
+
+.imageofmicrosoft {
+    display: flex;
+    justify-content: center;
 }
-.imageofmicrosoft img
-{
+
+.imageofmicrosoft img {
     width: 80%;
 }
-.career-image-rotate
-{
-animation: rotate 2s linear ;
+
+.career-image-rotate {
+    animation: rotate 2s linear;
 
 }
-.career-foot
-{
+
+.career-foot {
     color: whitesmoke;
     background-color: #252525;
-    
+
     text-align: center;
     border-radius: 5px;
 }
 
 @media screen and (max-width:800px) {
 
-    
-/******************************** For mobile view of Index.html**************************************/
+
+    /******************************** For mobile view of Index.html**************************************/
 
 
 
-    .grid-container
-    {
+    .grid-container {
         display: grid;
-        grid-template-rows: repeat(6,auto);
-        grid-template-columns: repeat(1,auto);
+        grid-template-rows: repeat(6, auto);
+        grid-template-columns: repeat(1, auto);
         grid-row-gap: 10px;
-        
+
     }
-    
-    .heading
-    {
-        grid-row: 1/2  ;
+
+    .heading {
+        grid-row: 1/2;
         grid-column: 1/1;
-     
-        
+
+
     }
-   
-    .navbar
-    {
+
+    .navbar {
         grid-row: 2/3;
         grid-column: 1;
 
@@ -574,182 +563,175 @@ animation: rotate 2s linear ;
     .navbar ul li {
 
         display: block;
-        width:auto;
-        
-        
+        width: auto;
+
+
     }
 
-    .studentlife
-    {
+    .studentlife {
         grid-row: 3/4;
         grid-column: 1;
-       
-        
+
+
     }
-    .workhistory
-    {
+
+    .workhistory {
         grid-row: 4/5;
         grid-column: 1;
-        
+
     }
-    .currentstatus
-    {
+
+    .currentstatus {
         grid-row: 5/6;
         grid-column: 1;
     }
-    .foot
-    {
+
+    .foot {
         grid-row: 6/7;
         grid-column: 1;
     }
 
-/*------------------------CSS for Mobile VIew Contact page-----------------------------------*/
-.Contact-container
-{
-    animation: color 5s infinite linear;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    display: grid;
-    
-    grid-template-rows: repeat(6,auto);
-    grid-template-columns: repeat(1,auto);
+    /*------------------------CSS for Mobile VIew Contact page-----------------------------------*/
+    .Contact-container {
+        animation: color 5s infinite linear;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0;
+        display: grid;
+
+        grid-template-rows: repeat(6, auto);
+        grid-template-columns: repeat(1, auto);
+    }
+
+
+    .submitbutton,
+    .resetbutton {
+        width: 100%;
+    }
+
+
+    .heading-Contact {
+        grid-column: 1/12;
+        grid-row: 1/1;
+        grid-column: 1/2;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+        border-radius: 5px;
+        animation: heading 9s infinite linear;
+        grid-row: 1/2;
+
+
+    }
+
+
+    .heading-Contact h1 {
+
+        color: #cc7d33;
+        font-size: 50px;
+        text-transform: uppercase;
+
+        -webkit-text-stroke: 0.3vw #f4ac11;
+        animation: text 5s 1;
+        margin: 0%;
+
+
+
+    }
+
+    .returnbutton {
+        grid-row: 2/3;
+        grid-column: 1/2;
+
+    }
+
+    .Contact-heading2 h2 {
+        text-align: center;
+        color: #0c0d04;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        font-size: 30px;
+        color: rgb(226, 43, 128);
+
+        grid-row: 3/4;
+        grid-column: 1/2;
+        text-transform: uppercase;
+    }
+
+    form {
+
+        grid-row: 4/5;
+        grid-column: 1/2;
+
+        border: #072121 solid 3px;
+
+        font-weight: bolder;
+        text-align: left;
+        display: grid;
+        grid-row-gap: 10px;
+        background-color: blueviolet;
+    }
+
+    .Contact-images {
+        grid-row: 5/6;
+        grid-column: 1/2;
+        border: #072121 3px solid;
+    }
+
+    .Contact-images img {
+        height: 350px;
+        width: 350px;
+    }
+
+    .foot-form {
+        color: whitesmoke;
+        background-color: #252525;
+        grid-column: 1/12;
+        grid-row: 7/end;
+        text-align: center;
+        border-radius: 5px;
+        grid-row: 6/7;
+        grid-column: 1/2;
+
+    }
+
+    /**********************Mobile View for Career page***************/
+
+    /*inherit from desktop view*/
+
+
+
+    /**********************Mobile View for Career page***************/
+    .Career-container {
+        display: grid;
+        grid-template-rows: repeat(5, auto);
+        grid-template-columns: repeat(1, auto);
+
+    }
+
+    .heading-Career {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    .Contact-returnbutton {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .upcoming-heading {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .imageofmicrosoft {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .career-foot {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
 }
-
-
-.submitbutton,.resetbutton
-{
-    width: 100%;
-}
-
-
-.heading-Contact {
-    grid-column: 1/12;
-    grid-row: 1/1;
-    grid-column: 1/2;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-   
-    border-radius: 5px;
-    animation: heading 9s infinite linear;
-    grid-row: 1/2;
-
-
-}
-
-
-.heading-Contact h1 {
-
-    color: #cc7d33;
-    font-size: 50px;
-    text-transform: uppercase;
-
-    -webkit-text-stroke: 0.3vw #f4ac11;
-    animation: text 5s 1;
-    margin: 0%; 
-
-
-
-}
-.returnbutton
-{
-    grid-row: 2/3;
-    grid-column: 1/2;
-    
-}
-.Contact-heading2 h2
-{
-    text-align: center;
-    color: #0c0d04;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
-    font-size: 30px;
-    color: rgb(226, 43, 128);
-    
-    grid-row: 3/4;
-    grid-column: 1/2;
-    text-transform: uppercase;
-}
-
-form
-{
-   
-    grid-row: 4/5;
-    grid-column: 1/2;
-    
-    border: #072121 solid 3px;
-    
-    font-weight: bolder;
-   text-align: left;
-    display: grid;
-    grid-row-gap: 10px;
-    background-color: blueviolet;
-}
-.Contact-images
-{
-    grid-row: 5/6;
-    grid-column: 1/2;
-    border: #072121 3px solid;
-}
-.Contact-images img
-{
-    height: 350px;
-    width: 350px;
-}
- .foot-form
- {
-    color: whitesmoke;
-    background-color: #252525;
-    grid-column: 1/12;
-    grid-row: 7/end;
-    text-align: center;
-    border-radius: 5px;
-    grid-row: 6/7;
-    grid-column: 1/2;
-    
- }
-/**********************Mobile View for Career page***************/
-
-/*inherit from desktop view*/
-
-
-
-/**********************Mobile View for Career page***************/
-.Career-container
-{
-   display: grid;
-   grid-template-rows: repeat(5,auto);
-   grid-template-columns:repeat(1,auto);
-    
-}
-.heading-Career
-{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-.Contact-returnbutton
-{
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-.upcoming-heading
-{
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-.imageofmicrosoft
-{
-    grid-column: 1/2;
-    grid-row: 4/5;
-}
-.career-foot
-{
-    grid-column: 1/2;
-    grid-row: 5/6;
-}
-}
-
-
- 
-
